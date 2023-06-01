@@ -10,7 +10,7 @@ export const Button = styled.button`
   margin-right:30px;
  cursor: pointer;
  border: none;
- background-color: #bcbcce33;
+ background-color: #d9ecd0;
   transition-property: transform, box-shadow;
   transition-duration: 0.25s;
   transition-timing-function: 0.25s cubic-bezier(0.7, 0.98, 0.86, 0.98);

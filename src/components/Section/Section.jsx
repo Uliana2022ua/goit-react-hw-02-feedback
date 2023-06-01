@@ -1,6 +1,6 @@
 import React from 'react';
-import { Title, SectionWrap } from './Section.styled';
 import PropTypes from 'prop-types';
+import { Title, SectionWrap } from './Section.styled';
 
 const Section = ({ title, children }) => (
   <SectionWrap>
@@ -9,8 +9,10 @@ const Section = ({ title, children }) => (
   </SectionWrap>
 );
 
+
 Section.propTypes = {
   title: PropTypes.string.isRequired,
   children: PropTypes.node.isRequired,
 };
+
 export default Section;
